@@ -172,4 +172,4 @@ If this prints `False`, verify your CUDA driver and PyTorch installation.
 Scripts provided as-is for personal/research use. Refer to each model's own license for usage restrictions:
 - [FLUX.1-schnell License](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
 - [Stable Diffusion 1.5 License](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- Pony Diffusion XL: check the model card on CivitAI
+- [Pony Diffusion XL](https://civitai.com/models/257749?modelVersionId=290640)
