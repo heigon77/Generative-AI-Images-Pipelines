@@ -142,7 +142,7 @@ python ImageGenerators/sd15.py
 | Script | Minimum VRAM | Notes |
 |---|---|---|
 | `flux.py` | ~8 GB | Sequential CPU offload enabled |
-| `pony.py` | ~10–12 GB | SDXL-based |
+| `pony.py` | ~8 GB | SDXL-based |
 | `sd15.py` | ~4–6 GB | SD 1.5-based |
 
 ---
