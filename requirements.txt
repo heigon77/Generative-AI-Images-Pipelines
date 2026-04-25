@@ -1,0 +1,22 @@
+# ── Core ML Framework ─────────────────────────────────────────────────────────
+# Install PyTorch separately with the correct CUDA version for your system:
+# CUDA 11.8:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# CUDA 12.1:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# CUDA 12.4:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+# ── Diffusers & HuggingFace ────────────────────────────────────────────────────
+diffusers>=0.30.0
+transformers>=4.44.0
+accelerate>=0.33.0
+huggingface-hub>=0.24.0
+
+# ── Model / File Format Support ───────────────────────────────────────────────
+safetensors>=0.4.3         # load .safetensors checkpoints and LoRAs
+omegaconf>=2.3.0           # required by some model configs
+
+# ── Image Processing ──────────────────────────────────────────────────────────
+Pillow>=10.0.0             # saving/loading images
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.13.0              # used internally by some schedulers
